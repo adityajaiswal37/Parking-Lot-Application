@@ -65,7 +65,7 @@ public class ParkingMain {
         System.out.println("Ticket Parking Type " + ticket.getParkingSlot().parkingSlotType);
         System.out.println("Start Time" + ticket.getStartTime());
 
-        Thread.sleep(10000);
+        Thread.sleep(1000);
 
         Invoice invoice = parkingLot.checkOut(ticket);
         System.out.println("Invoice Details" + invoice);
