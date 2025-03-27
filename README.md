@@ -3,6 +3,18 @@
 ## 🚗 Overview
 My Parking Lot Application is a Java-based system that manages parking slots, tracks vehicle entries and exits, and calculates parking fees. The system ensures efficient parking management by assigning slots dynamically and processing invoices.
 
+This application is fundamentally strong, easy to understand, and designed to be extendable and refactorable. The modular approach ensures that new features can be added seamlessly while maintaining code readability and maintainability.
+
+## 📂 HLD Diagram
+<div>
+  <img src="https://github.com/adityajaiswal37/ProjectImages/blob/main/HLD.webp">
+</div>
+
+## 📂 LLD Diagram
+<div>
+  <img src="https://github.com/adityajaiswal37/ProjectImages/blob/main/LLD%20.webp">
+</div>
+
 ## 📂 Project Structure
 ```
 📦 MyParkingLotApp
