@@ -40,8 +40,8 @@ My Parking Lot Application is a Java-based system that manages parking slots, tr
 ### Steps to Run
 1. **Clone the Repository**
    ```sh
-   git clone https://github.com/your-username/MyParkingLotApp.git
-   cd MyParkingLotApp
+   git clone https://github.com/adityajaiswal37/Parking-Lot-Application.git
+   cd Parking-Lot-Application
    ```
 
 2. **Build the Project**
@@ -57,17 +57,23 @@ My Parking Lot Application is a Java-based system that manages parking slots, tr
 ## 🏗️ Class Diagram
 
 ```plaintext
-+--------------------+
++-------------------+
 |   ParkingLot      |
-|--------------------|
+|-------------------|
 | name              |
 | address           |
-| parkingFloors     | (List<ParkingFloor>)
-|--------------------|
-| +addFloor()       |
+| parkingFloors     | 
+|-------------------|
+| +getInstance()    |
+| +addFloors()      |
 | +removeFloor()    |
-| +getAvailableSlots() |
-+--------------------+
+| +checkIn()        |
+| +checkOut()       |
+| +scanAndPay()     |
+| +getParkingSlot() |
+| +createTicket()   |
+| +getTicketPrice() |
++-------------------+
 ```
 
 _(For a complete class diagram, refer to the `docs/` folder.)_
@@ -107,17 +113,11 @@ _(For a complete class diagram, refer to the `docs/` folder.)_
 ## 📜 License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## 💡 Future Enhancements
-- ✅ Real-time parking availability updates
-- ✅ Mobile app integration
-- ✅ QR code-based ticket scanning
-- ✅ Admin dashboard with analytics
 
----
 
 ### 🤝 Contributing
 We welcome contributions! Feel free to open an issue or submit a pull request. 😃
 
 ## 📞 Contact
-For any queries, contact **Aditya Jaiswal** at `aditya@example.com`. 🚀
+For any queries, contact **Aditya Jaiswal** at `adijaiswal0011@gmail.com`. 🚀
 
