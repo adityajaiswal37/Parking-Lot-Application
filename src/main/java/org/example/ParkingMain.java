@@ -55,7 +55,7 @@ public class ParkingMain {
         System.out.println("Ticket Details " + parkingLot);
 
         Vehicle vehicle = new Vehicle();
-        vehicle.setVehicleNumber("MP-19-CA-2664");
+        vehicle.setVehicleNumber("MP-37-CA-2664");
         vehicle.setVehicleCategory(VehicleCategory.TwoWheeler);
 
         Ticket ticket = parkingLot.checkIn(vehicle);
